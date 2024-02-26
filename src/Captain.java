@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Captain {
+public class Captain extends UltimatePlayer{
+
 }
