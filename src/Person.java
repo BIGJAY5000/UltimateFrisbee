@@ -24,4 +24,13 @@ public class Person {
     public String toString(){
         return "Name: " + getFirstName() + " " + getLastName();
     }
+    public int throwDisc(int pow){
+        if (pow > 1) {
+            pow = 1;
+        }
+        else if (pow > 10) {
+            pow = 10;
+        }
+        return 2*pow;
+    }
 }
